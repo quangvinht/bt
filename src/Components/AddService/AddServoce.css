@@ -1,0 +1,276 @@
+.AddService{
+    display: flex;
+    flex: 4 1;
+    flex-direction: column;
+    padding: 20px;
+    background-color: whitesmoke;
+    position: relative;
+    
+}
+.AddService_Title{
+    font-family: Nunito;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 36px;
+    /* identical to box height, or 150% */
+
+
+    /* Orange/$-Orange-500 */
+
+    color: #FF7506;
+    margin-top: 20px;
+}
+.AddService_Container{
+    background: #FFFFFF;
+/* Shadowbox */
+
+    box-shadow: 2px 2px 8px rgba(232, 239, 244, 0.8);
+    border-radius: 16px;
+    padding:20px;
+    margin-top: 20px;
+}
+
+.AddService_Container__Title{
+    font-family: Nunito;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    
+    line-height: 30px;
+    /* identical to box height, or 150% */
+
+
+    /* Orange/$-Orange-500 */
+
+    color: #FF7506;
+}
+
+.AddService_Container__Inputs__1{
+    display: flex;
+    flex-direction: column;
+    width:50%;
+}
+.AddService_Container__Inputs__1 input{
+    width: 100%;
+}
+
+
+.AddService_Container__Inputs__ServiceCode__Title span{
+    color:red;
+    transform:translateY(3px);
+    display: inline-block;
+    margin-left:2px;
+}
+.AddService_Container__Inputs{
+    display: flex;
+    
+}
+.AddService_Container__Inputs__2{
+    margin-left:20px;
+    width:50%;
+}
+
+.AddService_Container__Inputs__ServiceCode__Input textarea{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 10px 10px 10px 12px;
+    
+    max-width: 559px;
+    max-height: 118px;
+    min-width: 559px;
+    min-height: 118px;
+   
+    background: #FFFFFF;
+    border: 1.5px solid #D4D4D7;
+    box-sizing: border-box;
+    border-radius: 8px;
+    font-family: Nunito;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    /* identical to box height, or 150% */
+
+
+    /* Gray/$-gray-400 Text */
+
+    
+
+    margin: 4px 0px;
+}
+
+.AddService_Container__Rules_Title{
+    font-family: Nunito;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 30px;
+    /* identical to box height, or 150% */
+
+
+    /* Orange/$-Orange-500 */
+
+    color: #FF7506;
+
+}
+
+.AddService_Container__Rules__Checkboxs-Inputs{
+    display: flex;
+    
+    width: 30%;
+    justify-content: space-between;
+}
+
+.AddService_Container__Rules__Checkboxs__Item{
+    display: flex;
+    align-items: center;
+    flex-direction:row;
+    padding:10px 0;
+}
+.AddService_Container__Rules__Checkboxs__Item input{
+    width:14px;
+    height:14px;
+    
+    background: #FFFFFF;
+/* Blue */
+    order:0;
+    padding:0;
+    border: 1.5px solid #4277FF;
+    box-sizing: border-box;
+    border-radius: 4px;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    background-clip: border-box;
+    /* create custom checkbox appearance */
+    
+    margin-right: 5px;
+   
+   
+}
+.AddService_Container__Rules__Checkboxs__Item input[type="checkbox"]:checked {
+   background-color: #4277FF;
+}
+
+.AddService_Container__Rules__Checkboxs__Item span{
+    font-family: Nunito;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    /* identical to box height, or 150% */
+
+    
+
+    /* Gray/$-gray-500 */
+
+    color: #282739;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 0px 4px;
+}
+
+.AddService_Container__Rules__Inputs_Items{
+    display:flex;
+    flex-direction:column;
+}
+
+.AddService_Container__Rules__Inputs_Item{
+    display:flex;
+    align-items:center;
+    justify-content: space-between;
+}
+.AddService_Container__Rules__Inputs_Item input{
+    padding:10px 12px;
+    order:0;
+    width:56px;
+    height:36px;
+}
+.AddService_Container__Rules__Inputs_Item span{
+    font-family: Nunito;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    /* identical to box height, or 150% */
+    
+    display: flex;
+    align-items: center;
+    
+    /* Gray/$-gray-500 */
+    
+    color: #282739;
+    margin: 0 4px;
+}
+
+.AddService_Button{
+    display: flex;
+    
+    margin:50px auto;
+    
+}
+
+.AddService_Button__cancle button{
+    /* Orange/$-Orange-50 */
+    cursor: pointer;
+    background: #FFF2E7;
+    /* Orange/$-Orange-400 */
+
+    border: 1.5px solid #FF9138;
+    box-sizing: border-box;
+    /* down */
+    color:#FF9138;
+    box-shadow: 0px 0px 6px #E7E9F2;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 38px;
+}
+
+.AddService_Button__addService button{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 12px 24px;
+
+    margin-left: 20px;
+    color: white;
+    cursor: pointer;
+    /* Orange/$-Orange-400 */
+
+    background: #FF9138;
+    /* down */
+    border:none;
+
+    box-shadow: 0px 0px 6px #E7E9F2;
+    border-radius: 8px;
+}
+
+.AddService_Container__More .AddService_Container__Inputs__ServiceCode__Title{
+    display: flex;
+}
+
+.AddService_Container__More_require {
+    /* 14/14 Reg */
+
+    font-family: Nunito;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 21px;
+    /* identical to box height, or 150% */
+
+    display: flex;
+    align-items: center;
+    color: #7E7D88 !important;
+    
+}
