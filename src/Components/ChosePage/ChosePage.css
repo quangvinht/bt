@@ -1,0 +1,46 @@
+.ChosePage{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 250px;
+}
+.ChosePage__preArrow{
+    width:7px;
+    height:10px;
+    display: flex;
+    
+}
+
+.ChosePage__Item{
+    font-family: Nunito;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 22px;
+    /* identical to box height */
+    cursor: pointer;
+
+    /* gray blue/gray 4 - place holder */
+
+    color: #7E7D88;
+}
+.ChosePage__Item--more{
+    font-family: Nunito;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 22px;
+    /* identical to box height */
+
+
+    /* gray blue/gray 4 - place holder */
+
+    color: #7E7D88;
+
+}
+.ChosePage__Item--active{
+    background-color: #FF7506;
+    color:white;
+    padding: 0 6px;
+    border-radius: 4px;
+}

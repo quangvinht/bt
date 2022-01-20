@@ -1,0 +1,46 @@
+.AddEquiment{
+    display: flex;
+    flex: 4 1;
+    flex-direction: column;
+    padding: 20px;
+    background-color: whitesmoke;
+    position: relative;
+}
+
+.AddEquiment__container{
+    width: 100%;
+}
+
+.AddEquiment__container .AddService_Container__Inputs__1{
+    width:48%;
+}
+
+.AddEquiment__container .AddService_Container__Inputs__1:nth-child(1){
+    transform: translateY(-9px);
+}
+
+.AddEquiment__container .AddService_Container__Title {
+    margin-bottom: 20px;
+}
+
+.AddEquiment__container .AddService_Container__Inputs{
+    justify-content:space-between;
+}
+
+
+
+.AddEquiment__container .AddService_Container__Inputs__ServiceCode__Input input {
+    width:100%;
+}
+
+.AddEquiment__container .Dropdown-control{
+    padding:     10px 10px 10px 12px;
+}
+
+.AddService_Container__Inputs__ServiceCode__Equiment_dropdown{
+    transform: translateY(-6px);
+}
+
+.AddService_Container__Inputs__ServiceCode__Equiment_dropdown .AddService_Container__Inputs__ServiceCode__Title{
+    transform: translateY(-2px);
+}

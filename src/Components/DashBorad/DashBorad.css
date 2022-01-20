@@ -1,0 +1,32 @@
+.DashBorad{
+    display:flex;
+    background-color:whitesmoke;
+    flex:4;
+    padding:20px;
+    flex-direction:column;
+    
+}
+
+
+.DashBoradTitle{
+    text-align: left;
+    font-family: Nunito;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 30px;
+    /* identical to box height, or 150% */
+
+
+    /* Orange/$-Orange-400 */
+
+    color: #FF9138;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+   
+    
+    margin: 0px 8px;
+}

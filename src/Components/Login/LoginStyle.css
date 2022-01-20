@@ -1,0 +1,745 @@
+/*
+
+img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+.inputLeft{
+    display: flex;
+    flex-direction: column;
+} */
+
+.loginForm{
+        /* Đăng nhập */
+
+
+    position: relative;
+    width: 1440px;
+    height: 810px;
+
+    /* BG */
+
+    background: white;
+    border-radius: 16px;
+}
+
+.loginLeft{
+    background: #B1B1B1;
+}
+.loginRight{
+        position: absolute;
+    width: 848px;
+    height: 810px;
+    left: 592px;
+    top: 0px;
+
+    /* White */
+
+    background: #FFFFFF;
+}
+
+.imgAlta{
+    position: absolute;
+    width: 170px;
+    height: 136px;
+    left: 208px;
+    top: 82px;
+}
+
+img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+.inputUser{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 0px;
+    
+    position: absolute;
+    width: 400px;
+    height: 75px;
+    left: 94px;
+    top: 293px;
+}
+input{
+    display: flex;
+flex-direction: row;
+align-items: center;
+padding: 10px 10px 10px 12px;
+
+position: static;
+width: 400px;
+height: 44px;
+left: 0px;
+top: 31px;
+
+/* white */
+
+background: #FFFFFF;
+/* Gray/$-gray-100 */
+
+border: 1.5px solid #D4D4D7;
+box-sizing: border-box;
+border-radius: 8px;
+
+/* Inside auto layout */
+
+flex: none;
+order: 1;
+flex-grow: 0;
+margin: 4px 0px;
+}
+.inputPassword{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 0px;
+
+    position: absolute;
+    width: 400px;
+    height: 75px;
+    left: 94px;
+    top: 384px;
+}
+.forgotPassword{
+    position: absolute;
+    width: 210px;
+    
+    height: 21px;
+    left: 94px;
+    top: 471px;
+
+    /* 14/14 Reg */
+    text-align:left;
+    font-family: Nunito;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 21px;
+    /* identical to box height, or 150% */
+
+
+    /* Red */
+
+    color: #E73F3F;
+}
+.loginButton2 {
+     /* Auto layout */
+
+     display: flex;
+     flex-direction: row;
+     justify-content: center;
+     align-items: center;
+     padding: 10px 24px;
+     color: white;
+     position: absolute;
+     width: 162px;
+     height: 40px;
+     left: 296px;
+     top: 483px;
+ 
+     /* Orange/$-Orange-400 */
+ 
+     background: #FF9138;
+     /* down */
+ 
+     box-shadow: 0px 0px 6px #E7E9F2;
+     border-radius: 8px;
+}
+.loginButton{
+        /* Auto layout */
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 24px;
+    color: white;
+    position: absolute;
+    width: 162px;
+    height: 40px;
+    left: 215px;
+    top: 511px;
+
+    /* Orange/$-Orange-400 */
+
+    background: #FF9138;
+    /* down */
+
+    box-shadow: 0px 0px 6px #E7E9F2;
+    border-radius: 8px;
+}
+.imgSystem{
+    position: absolute;
+    width: 605px;
+    height: 614.06px;
+    left: 268px;
+    top: 112.94px;
+
+}
+.system{
+        position: absolute;
+    width: 142px;
+    height: 54px;
+    left: 630px;
+    top: 407px;
+
+    /* 34/34 Reg */
+
+    font-family: Nunito;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 34px;
+    line-height: 51px;
+    /* or 150% */
+
+    text-align: center;
+
+    /* Orange/$-Orange-500 */
+
+    color: #FF7506;
+}
+
+.QLXH{
+    position: absolute;
+    width: 370px;
+    height: 54px;
+    left: 630px;
+    top: 454px;
+    
+    /* 36/36 Xbold */
+    
+    font-family: Nunito;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 36px;
+    line-height: 54px;
+    /* identical to box height, or 150% */
+    
+    text-align: center;
+    
+    /* Orange/$-Orange-500 */
+    
+    color: #FF7506;
+}
+.active{
+    border: 1.5px solid #E73F3F;
+}
+
+.fogetPassword2{
+    position: absolute;
+    width: 102px;
+    height: 21px;
+    left: 246px;
+    top: 564px;
+    cursor: pointer;
+    /* 14/14 Reg */
+
+    font-family: Nunito;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 21px;
+    /* identical to box height, or 150% */
+
+
+    /* Red */
+
+    color: #E73F3F;
+}
+.linktag{
+    text-decoration: none;
+    color: #E73F3F;
+}
+.alertCircle{
+    width:20px;
+    height:20px;
+    position: absolute;
+    left: 0%;
+    right: 0%;
+    top: 0%;
+    bottom: 0%;
+}
+.warning{
+    margin-left:22px;
+}
+
+.hide{
+    display:none;
+}
+
+.show{
+    display:block;
+}
+
+.resetPassword{
+    position: absolute;
+    left: 3%;
+    
+    top: 39.51%;
+    display:flex;
+    flex-direction: column;
+    text-align:center;
+    /* 22/22 Bold */
+
+    font-family: Nunito;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 33px;
+    /* or 150% */
+
+
+    /* Gray/$-gray-500 */
+
+    color: #282739;
+}
+.inputUsername{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 10px 20px 10px 12px;
+
+    position: absolute;
+    width: 400px;
+    height: 44px;
+    left: 94px;
+    top: 391px;
+
+    /* white */
+
+    background: #FFFFFF;
+    /* Gray/$-gray-100 */
+
+    border: 1.5px solid #D4D4D7;
+    box-sizing: border-box;
+    border-radius: 8px;
+}
+.buttonCancel{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 24px;
+
+    position: absolute;
+    width: 162px;
+    height: 40px;
+    left: 118px;
+    top: 483px;
+
+    /* Orange/$-Orange-400 */
+
+    border: 1px solid #FF9138;
+    box-sizing: border-box;
+    /* down */
+    
+    filter: drop-shadow(0px 0px 6px #E7E9F2);
+    border-radius: 8px;
+}
+
+.buttonGetUser > .loginButton{
+    left: 296px;
+    top: 483px;
+}
+
+.imgSystemUser{
+    position: absolute;
+    width: 736px;
+    height: 614.06px;
+    left: 250px;
+    top: 112.94px;
+
+}
+.dlmkm{
+    position: absolute;
+    left: 4.75%;
+    right: 71.6%;
+    top: 39.51%;
+    bottom: 56.42%;
+
+    /* 22/22 Bold */
+
+    font-family: Nunito;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 33px;
+    /* identical to box height, or 150% */
+
+
+    /* Gray/$-gray-500 */
+
+    color: #282739;
+
+}
+
+.passWord {
+        position: absolute;
+    width: 400px;
+    height: 75px;
+    left: 94px;
+    top: 365px;
+    text-align: left;
+}
+.passWord,.RepassWord span {
+        font-family: Nunito;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 27px;
+    /* identical to box height, or 150% */
+
+
+    color: #37474F;
+}
+
+.RepassWord{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 0px;
+
+    position: absolute;
+    width: 400px;
+    height: 75px;
+    left: 94px;
+    top: 456px;
+}
+.ApplyButton{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 24px;
+
+    position: absolute;
+    width: 162px;
+    height: 40px;
+    left: 219px;
+    top: 579px;
+    color: #fff;
+    /* Orange/$-Orange-400 */
+
+    background: #FF9138;
+    /* down */
+
+    box-shadow: 0px 0px 6px #E7E9F2;
+    border-radius: 8px;
+    }
+
+.UserInfor{
+    display: flex !important;
+    background-color: whitesmoke ;
+    width: 100%;
+    
+    flex : 4;
+    position: relative;
+    padding:0 20px;
+    flex-direction: column;
+    
+}
+
+
+.UserInforDetail{
+    
+}
+
+.userDetailMess{
+    
+
+
+/* 20/20 Bold */
+
+font-family: Nunito;
+font-style: normal;
+font-weight: bold;
+font-size: 20px;
+line-height: 30px;
+/* identical to box height, or 150% */
+
+
+/* Orange/$-Orange-400 */
+
+color: #FF9138;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 1;
+flex-grow: 0;
+margin: 0px 8px
+}
+
+.UserInforDetailandAvatar{
+    
+    display:flex;
+    margin-right: 20px;
+}
+
+.userInforRight{
+        width: 100%;
+        display: flex;
+        flex-direction:row-reverse;
+        margin-top:20px;
+        align-items:center;
+        justify-content:space-between;
+        
+        
+}
+.UserInforDetailAvatar{
+   width:45px;height:44px;
+}
+
+.UserInforbell{
+    width:30px;
+    height:30px;
+    margin-right: 40px;
+    position: relative;
+}
+.UserInforbellList{
+    position:absolute;
+    left: -58px;
+    top: 46px;
+    overflow-y: scroll;
+    height: 500px;
+    width: 320px;
+    /* White */
+    display:flex;
+    flex-direction: column;
+    background: #FFFFFF;
+    /* Pink shadow */
+    box-shadow: 2px 2px 15px rgba(70, 64, 67, 0.1);
+    border-radius: 10px;
+    
+}
+::-webkit-scrollbar {
+    width: 4px;
+    border-radius:4px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: transparent; 
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #FFC89B; 
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555; 
+  }
+
+.UserInforbellLissTitle{
+    font-family: Nunito;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 30px;
+    /* identical to box height, or 150% */
+    padding:15px ;
+
+    
+    
+    /* White */
+
+    color: #FFFFFF;
+    background-color: #FF9138;
+}
+.UserInforbellUL{
+    padding:0;
+}
+.UserInforbellliFirst{
+    font-family: Nunito;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 24px;
+    /* identical to box height, or 150% */
+
+
+    /* Orange/$-Orange-600 */
+
+    color: #BF5805;
+}
+.UserInforbellliSecond{
+    font-family: Nunito;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    /* identical to box height, or 150% */
+
+
+    /* Gray/$-gray-400 Text */
+
+    color: #535261;
+}
+
+
+.UserInforDetailAvatarInfor{
+    display:flex;
+    flex-direction: column;
+    margin-left: 12px;
+    
+}
+.UserInforDetailAvatarandInfor{
+    display:flex;
+    
+}
+.helloUser{
+    text-align:left;
+        font-family: Nunito;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 18px;
+    /* identical to box height, or 150% */
+
+
+    /* Gray/$-gray-300 */
+
+    color: #7E7D88;
+}
+
+
+.UserInforName{
+        font-family: Nunito;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 24px;
+    /* identical to box height, or 150% */
+
+    width: 124px;
+    /* Gray/$-gray-400 Text */
+    text-align: left;
+    color: #535261;
+    
+}
+
+
+.UserMoreDetail{
+        background: #FFFFFF;
+    box-shadow: 0px 2px 6px rgba(219, 219, 219, 0.5);
+    border-radius: 12px;
+    display: flex;
+    padding:30px ;
+    margin-right:50px;
+    margin-top:100px;
+}
+
+.UserMoreDetailName{
+        font-family: Nunito;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 36px;
+    /* identical to box height, or 150% */
+
+    display: flex;
+    align-items: center;
+
+    /* Gray/$-gray-500 */
+    margin-top: 20px;
+    color: #282739;
+}
+
+.UserMoreDetailIMGandname{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content:center;
+   
+}
+.UserMoreDetailIMG{
+    position: relative;
+    width:250px;
+    height:250px;
+}
+.UserinforCamera{
+    position: absolute;
+    top: 65%;
+    left: 18%;
+}
+
+.UserInforDetailItemS{
+    margin-left: 40px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-between;
+    width: 100%;
+   
+}
+.UserInforDetailItem{
+    display: flex;
+    flex-direction: column;
+    text-align:left;
+    padding:20px 0;
+    
+}
+
+.UserInforDetailItemName{
+    font-family: Nunito;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    /* identical to box height, or 150% */
+
+    
+    /* Gray/$-gray-500 */
+
+    color: #282739;
+}
+
+.UserInforDetailItemValue{
+    margin-top:20px;
+    width: 384px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 12px 0;
+    background: #EAEAEC;
+    border-radius: 6px;
+
+
+}
+
+.UserInforDetailItemValue span{
+        font-family: Nunito;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    /* identical to box height, or 150% */
+
+
+    /* Gray/$-gray-400 Text */
+
+    color: #535261;
+
+    opacity: 0.5;
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 0px 10px;
+    text-align:left;
+    
+    }
