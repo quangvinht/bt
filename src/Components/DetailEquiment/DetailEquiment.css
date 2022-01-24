@@ -1,0 +1,139 @@
+.DetailEquiment{
+    display: flex;
+    flex: 4 1;
+    flex-direction: column;
+    padding: 20px;
+    background-color: whitesmoke;
+    position: relative;
+}
+
+.DetailEquiment__container{
+    width: 90%;
+    background: #FFFFFF;
+    /* Shadowbox */
+
+    box-shadow: 2px 2px 8px rgba(232, 239, 244, 0.8);
+    border-radius: 16px;
+    margin-top:20px;
+    padding:20px;
+    height: 120%;
+    margin-bottom: 13px;
+}
+
+.DetailEquiment__container__title{
+    font-family: Nunito;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 30px;
+    /* identical to box height, or 150% */
+
+
+    /* Orange/$-Orange-500 */
+
+    color: #FF7506;
+    }
+
+.DetailEquiment__container__list{
+    width: 50%;
+    display: flex;
+    
+    justify-content: space-between;
+}
+
+.DetailEquiment__container__item{
+    display: flex;
+    flex-direction: column;
+    width: 15%;
+}
+
+.DetailEquiment__container__item__spans{
+    display: flex;
+    
+    justify-content: space-between;
+    margin:10px 0;
+}
+
+.DetailEquiment__container__item span:nth-child(1){
+    font-family: Nunito;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    /* identical to box height, or 150% */
+
+    display: flex;
+    align-items: center;
+
+    /* Gray/$-gray-500 */
+
+    color: #282739;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 0px 4px;
+}
+
+.DetailEquiment__container__item span:nth-child(2){
+    font-family: Nunito;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    /* identical to box height, or 150% */
+    margin-left:5px;
+    display: flex;
+    align-items: center;
+    
+    /* Gray/$-gray-400 Text */
+    
+    color: #535261;
+}
+
+.DetailEquiment__container__service_use{
+    display: flex;
+    flex-direction: column;
+    margin-left:4px;
+}
+.DetailEquiment__container__service_use span:nth-child(1){
+    font-family: Nunito;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    /* identical to box height, or 150% */
+
+    display: flex;
+    align-items: center;
+
+    /* Gray/$-gray-500 */
+
+    color: #282739;
+
+}
+.DetailEquiment__container__service_use span:nth-child(2){
+    font-family: Nunito;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    /* identical to box height, or 150% */
+
+    display: flex;
+    align-items: center;
+
+    /* Gray/$-gray-400 Text */
+
+    color: #535261;
+
+
+
+}
+
+.DetailEquiment .ServiceAdd{
+    top:20%;
+}
