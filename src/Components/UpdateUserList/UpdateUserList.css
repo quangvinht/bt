@@ -1,0 +1,23 @@
+.UpdateUserList{
+    display: flex;
+    flex: 4 1;
+    flex-direction: column;
+    padding: 20px;
+    background-color: whitesmoke;
+    position: relative;
+}
+
+
+
+.UpdateUserList .AddService_Container__Inputs__ServiceCode__Equiment_dropdown {
+    transform: unset;
+}
+
+.AddService_Container__Inputs__ServiceCode__Input--fixUser{
+    transform: translateY(1px);
+}
+
+.UpdateUserList .AddService_Button__addService button{
+    padding-left: 30px;
+    padding-right: 30px;
+}
