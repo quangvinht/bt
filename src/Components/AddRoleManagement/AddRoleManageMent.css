@@ -1,0 +1,92 @@
+.AddRoleManageMent{
+    display: flex;
+    flex: 4 1;
+    flex-direction: column;
+    padding: 20px;
+    background-color: whitesmoke;
+    position: relative;
+    overflow: hidden;
+}
+
+.AddRoleManageMent__container{
+    width: 100%;
+    
+    
+    
+/* Shadowbox */
+
+    box-shadow: 2px 2px 8px rgba(232, 239, 244, 0.8);
+    border-radius: 16px;
+}
+
+.AddRoleManageMent__container__InPut{
+    display: flex;
+    justify-content:space-between;
+    
+}
+
+.AddRoleManageMent__container .AddService_Container{
+    height:55%;
+}
+
+
+.AddRoleManageMent__container__InPut .AddService_Container__Inputs{
+    display: flex;
+    flex-direction: column;
+    width:48%
+}
+
+.AddRoleManageMent__container__InPut .AddService_Container__Rules{
+    width:48%;
+    display: flex;
+    flex-direction: column;
+}
+
+.AddRoleManageMent__container__InPut .AddService_Container__Inputs__2{
+    margin-left:0;
+}
+
+.AddRoleManageMent__container__InPut .AddService_Container__Inputs__1{
+    width: 100%;
+}
+
+
+.AddRoleManageMent__container__InPut__function__Item__TItle{
+    /* 20/20 Bold */
+
+        font-family: Nunito;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 20px;
+        line-height: 30px;
+        /* identical to box height, or 150% */
+
+
+        /* Orange/$-Orange-500 */
+
+        color: #FF7506;
+
+}
+
+.AddRoleManageMent__container__InPut__function{
+    /* Orange/$-Orange-50 */
+
+    background: #FFF2E7;
+    border-radius: 8px;
+    padding:10px 30px 30px 30px;
+    margin-top: 10px;
+    overflow: scroll;
+    height:50%;
+}
+
+
+.AddRoleManageMent__container .AddService_Button{
+    margin-top:16px;
+    justify-content:center;
+}
+
+
+.AddRoleManageMent__container  .AddService_Button__addService button {
+    padding-left:40px;
+    padding-right:40px;
+}
