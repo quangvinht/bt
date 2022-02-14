@@ -1,0 +1,170 @@
+.NumberLevel{
+    display: flex;
+    flex: 4 1;
+    flex-direction: column;
+    padding: 20px;
+    background-color: whitesmoke;
+    position: relative;
+}
+
+.NumberLevel .ServiceDropdowns_1{
+    width: 150px;
+    
+}
+
+.NumberLevel .ServiceDropdownsItem1 {
+    width: 60%;
+}
+.NumberLevel .ServiceDropdownsSarchFirst:first-child {
+    margin-right: 0;
+}
+
+.NumberLevel .ServiceDropdowns_input input {
+    width:267px;
+}
+.NumberLevel .ServiceDropdownsSarchFirst{
+    width: 25%;
+}
+.NumberLevel .Dropdown-menu {
+    width: 115% !important;
+}
+
+.WaitPoint{
+    width: 6px;
+    height: 6px;
+    background: #4277FF;
+    display: inline-block;
+    border-radius: 50%;
+    margin-bottom: 2px;
+}
+
+.UsedPoint{
+    width: 6px;
+    height: 6px;
+    background: gray;
+    display: inline-block;
+    border-radius: 50%;
+    margin-bottom: 2px;
+}
+
+.NumberLevel .ServiceTableDetailTitles_Item:nth-child(8){
+    width: 8%;
+}   
+
+.NumberLevel .ServiceTableDetailTitles_Item:nth-child(2){
+    width: 18%;
+}   
+
+
+.NumberLevel .ServiceTableDetailTitles_Item:nth-child(3){
+    width: 20%;
+} 
+
+.NumberLevel .ServiceTableDetailTitles_Item:nth-child(1){
+    width: 10%;
+} 
+
+.NumberLevel .ServiceTableDetailTitles_Item:nth-child(5){
+    width: 18%;
+} 
+
+.NumberLevel .ServiceTableDetailTitles_Item:nth-child(4){
+    width: 20%;
+} 
+.NumberLevel .ServiceTableDetailTitles_Item:nth-child(7){
+    width: 12%;
+} 
+
+.NumberLevel .ServiceTableDetailTitles_Item:nth-child(6){
+    width: 15%;
+} 
+
+.NumberLevel .ServiceAdd span {
+    font-size:15px;
+}
+
+.NumberLevel .ServiceAdd{
+    top: 27%;
+}
+
+
+.react-datepicker__header{
+    background-color:unset !important;
+    border-bottom: 1px solid #DCDDFD;
+    margin-left: 15px !important;
+    margin-right: 15px !important;
+}
+
+.react-datepicker__day:hover, .react-datepicker__month-text:hover, .react-datepicker__quarter-text:hover, .react-datepicker__year-text:hover {
+    background-color:#FFF2E7!important;
+}
+
+.react-datepicker__day--keyboard-selected:hover, .react-datepicker__month-text--keyboard-selected:hover, .react-datepicker__quarter-text--keyboard-selected:hover, .react-datepicker__year-text--keyboard-selected:hover {
+    background:#FF7506  !important;
+}
+.react-datepicker__day--keyboard-selected, .react-datepicker__month-text--keyboard-selected, .react-datepicker__quarter-text--keyboard-selected, .react-datepicker__year-text--keyboard-selected {
+        background:unset !important;
+        color:black !important;
+}
+
+
+.react-datepicker__year-read-view--down-arrow, .react-datepicker__month-read-view--down-arrow, .react-datepicker__month-year-read-view--down-arrow, .react-datepicker__navigation-icon::before {
+    border-color:unset !important;
+    color:#FF7506 !important
+}
+
+.react-datepicker__day--keyboard-selected:hover{
+    background-color: unset !important;
+}
+
+.react-datepicker {
+    background: #FFFFFF !important;
+    /* dropdown */
+
+    box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.25) !important;
+    border-radius: 8px !important;
+    border:none !important
+}
+
+.react-datepicker__navigation-icon--previous {
+    right: -13px !important;
+}
+
+.react-datepicker__navigation-icon--next {
+    left: -13px !important;
+}
+    .serviceFix .Dropdown-placeholder {
+        height:20px;
+        line-height:24px;
+        
+    }
+
+
+ .paginationBttns{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    width: 88%;
+    list-style: none;
+    margin-top: 20px;
+    
+}
+.paginationBttns li {
+    padding:0;
+    display:flex;
+    align-items: center;
+    margin:0 15px;
+}
+.paginationBttns a{
+    cursor: pointer;
+}
+.paginationActive{
+    background-color: #FF7506;
+    color: white;
+    padding:0px 6px !important;
+    border-radius: 4px;
+}
+
+ .ChosePage__preArrow{
+    margin-top:6px;
+}

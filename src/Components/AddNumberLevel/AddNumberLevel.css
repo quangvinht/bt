@@ -1,0 +1,272 @@
+.AddNumberLevel{
+    display: flex;
+    flex: 4 1;
+    flex-direction: column;
+    padding: 20px;
+    background-color: whitesmoke;
+    position: relative;
+    
+}
+
+.AddNumberLevel__container{
+    width: 100%;
+    /* White */
+    height:532px;
+    background: #FFFFFF;
+    /* Shadowbox */
+    margin-bottom: 100px;
+    margin-top: 20px;
+    box-shadow: 2px 2px 8px rgba(232, 239, 244, 0.8);
+    border-radius: 16px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.AddNumberLevel__container__title{
+    font-family: Nunito;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 32px;
+    line-height: 48px;
+    /* identical to box height, or 150% */
+    margin:15px;
+
+    /* Orange/$-Orange-500 */
+
+color: #FF7506;
+
+}
+
+.AddNumberLevel__container__serviceguset{
+    font-family: Nunito;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 30px;
+    /* identical to box height, or 150% */
+    margin-bottom: 10px;
+
+    /* Gray/$-gray-400 Text */
+
+    color: #535261;
+}
+.AddNumberLevel__container__dropdown{
+    width: 34%;
+}
+.AddNumberLevel__container__button{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+.AddNumberLevel__container__button button:nth-child(1){
+    background: #FFF2E7;
+    /* Orange/$-Orange-400 */
+
+    border: 1.5px solid #FF9138;
+    box-sizing: border-box;
+    /* down */
+
+    box-shadow: 0px 0px 6px #E7E9F2;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 24px;
+
+}
+
+.AddNumberLevel__container__button button:nth-child(2){
+    
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 24px;
+    background: #FF9138;
+    /* down */
+    border:none;
+    box-shadow: 0px 0px 6px #E7E9F2;
+    border-radius: 8px;
+    padding:0 30px;
+    
+}
+.AddNumberLevel__container__button {
+    width:20%
+}
+.AddNumberLevel__container__button span{
+    font-family: Nunito;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 22px;
+    /* identical to box height */
+    
+
+    /* Orange/$-Orange-400 */
+
+    color: #FF9138;
+
+
+    /* Inside auto layout */
+
+    
+    margin: 0px 8px;
+}
+.AddNumberLevel__container__button p{
+    font-family: Nunito;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 22px;
+    /* identical to box height */
+
+
+    /* white */
+
+    color: #FFFFFF;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 0px 8px;
+}
+button{
+    cursor: pointer;
+}
+
+.AddNumberLevel__modal{
+    position:fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(15, 14, 14, 0.6);
+    z-index:1;
+}
+
+.AddNumberLevel__modal__item{
+    position:absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 469px;
+    height: 385px;
+    display: flex;
+    flex-direction: column;
+    background: #FFFFFF;
+    overflow: hidden;
+    border-radius: 24px;
+    animation: showmaldal ease 1s;
+}
+
+.AddNumberLevel__modal__item_times{
+   color:#FF7506 ;
+    font-size: 30px;
+    align-self: flex-end;
+    margin:1px 20px 8px 13px;
+    cursor: pointer;
+    
+}
+
+.AddNumberLevel__modal__item_numberproduct{
+    font-family: Nunito;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 32px;
+    line-height: 48px;
+    /* identical to box height, or 150% */
+
+
+    /* Gray/$-gray-400 Text */
+
+    color: #535261;
+    align-self: center;
+}
+
+.AddNumberLevel__modal__item_number{
+    font-family: Nunito;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 56px;
+    line-height: 60px;
+    /* identical to box height, or 107% */
+
+
+    /* Orange/$-Orange-500 */
+
+    color: #FF7506;
+    align-self: center;
+    margin:20px 0;
+}
+
+.AddNumberLevel__modal__item__servoce{
+    font-family: Nunito;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 27px;
+    /* identical to box height, or 150% */
+
+
+    /* Gray/$-gray-500 */
+    align-self: center;
+    color: #282739;
+}
+
+.AddNumberLevel__modal__item__footer{
+    background: #FF9138;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top:40px;
+    height:100%;
+   
+}
+.AddNumberLevel__modal__item__footer span span{
+    margin-left:0px;
+    padding-right: 6px;
+    
+}   
+
+.AddNumberLevel__modal__item__footer span{
+    font-family: Nunito;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 33px;
+    /* identical to box height, or 150% */
+
+    display: flex;
+    flex-direction: row;
+    /* White */
+
+    color: #FFFFFF;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 0px 8px;
+}
+
+@keyframes showmaldal{
+    from{
+        top:0;
+        
+        opacity: 0;
+    }to{
+        top:50%;
+        
+        opacity: 1;
+    }
+}
